@@ -4,7 +4,8 @@ public class Lab011 {
     public static void main(String[] args) {
 
         //variables,DataTypes and identifiers
-        Boolean audio=true;
+        String audio="AshokReddy";
         System.out.println(audio);
+        
     }
 }
