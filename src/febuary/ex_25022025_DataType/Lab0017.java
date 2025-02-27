@@ -1,4 +1,4 @@
-package febuary.ex_25022025;
+package febuary.ex_25022025_DataType;
 
 public class Lab0017 {
 
@@ -15,6 +15,8 @@ char a='A';
 
         char c3='\u1F6A'; //unicode
         System.out.println(c3);
+
+
 
 
     }

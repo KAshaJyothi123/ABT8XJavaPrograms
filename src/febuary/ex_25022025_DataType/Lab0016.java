@@ -1,4 +1,4 @@
-package febuary.ex_25022025;
+package febuary.ex_25022025_DataType;
 
 public class Lab0016 {
    //long distance between moon to earth

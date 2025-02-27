@@ -1,4 +1,4 @@
-package febuary.ex_25022025;
+package febuary.ex_25022025_DataType;
 
 public class Lab0014 {
     public static void main(String[] args) {
