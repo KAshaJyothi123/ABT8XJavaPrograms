@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "3637b832-8f1d-467a-9c02-efd527569f7c",
+		"name": "Project#4-Opencart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18851338"
+	},
+	"item": [
+		{
+			"name": "Opencart Login Test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/javascript, */*; q=0.01"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/x-www-form-urlencoded"
+					},
+					{
+						"key": "origin",
+						"value": "https://demo.opencart.com"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "https://demo.opencart.com/en-gb?route=account/register"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\""
+					},
+					{
+						"key": "sec-ch-ua-arch",
+						"value": "\"x86\""
+					},
+					{
+						"key": "sec-ch-ua-bitness",
+						"value": "\"64\""
+					},
+					{
+						"key": "sec-ch-ua-full-version",
+						"value": "\"134.0.6998.89\""
+					},
+					{
+						"key": "sec-ch-ua-full-version-list",
+						"value": "\"Chromium\";v=\"134.0.6998.89\", \"Not:A-Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"134.0.6998.89\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-model",
+						"value": "\"\""
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-ch-ua-platform-version",
+						"value": "\"15.0.0\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-origin"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+					},
+					{
+						"key": "x-requested-with",
+						"value": "XMLHttpRequest"
+					},
+					{
+						"key": "Cookie",
+						"value": "_ga_GNHMG3034P=GS1.2.1715089539.1.0.1715089539.0.0.0; _gcl_au=1.1.792018551.1742194859; _gid=GA1.2.816003758.1742194860; _ga=GA1.2.1736722577.1707465920; _ga_X8G0BRFSDF=GS1.1.1742194859.15.1.1742194998.0.0.0; OCSESSID=1ef36708a1da4c808496a22741; currency=USD; cf_clearance=1LNIdogcu6MrzUrgMAvtB1ib3Ok6D3gFn_cCd2SP90U-1742195099-1.2.1.1-bmVfNinscPe9Az.sMdatqxgm1Q_Bc56hzNXKHPK3fE3DTK9n0gyS5iccIIr.4mexP06OZbemiuk_jyd.ok.d9NM9O1NyoVdKXtQ6PWdKyiaIaHVxDkdISZ5bsHo5NLiNdRVZrjUa.kj3.Z.EO1KA4.YVbSm6bcEHNLeW72IPFsojr8srkSmzuxzgUfHxq.zHWzFaAqcwrlklV9Vcp10P7QDCBit6VkMISNZEypKSMPczbfK0PelvqlM.mOCGJLxdDZHxlKky5T8q0SdLBCGD8zJzwzRtbng.okwsIPUyk3N4vpvLNEOvN0jqIyjy3dyxcGVK405QaeL8Ag08D8C_.N4aubvCzKWq.2pHAWFyt8flc4Z.RqOd.toxfNJ1SYjqucDYxIrdHUGJz9fxTxlaWQNGZuhsg58XZyP4OLPu3aE"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "firstname",
+							"value": "k",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "ashajyothi",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asha75k@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Asha@8713",
+							"type": "text"
+						},
+						{
+							"key": "newsletter",
+							"value": "0",
+							"type": "text"
+						},
+						{
+							"key": "agree",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://demo.opencart.com/en-gb?route=account/register.register&register_token=692df472c1ca4715d0dcf9eabe",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"opencart",
+						"com"
+					],
+					"path": [
+						"en-gb"
+					],
+					"query": [
+						{
+							"key": "route",
+							"value": "account/register.register"
+						},
+						{
+							"key": "register_token",
+							"value": "692df472c1ca4715d0dcf9eabe"
+						}
+					]
+				},
+				"description": "Generated from cURL: curl 'https://demo.opencart.com/en-gb?route=account/register.register&register_token=692df472c1ca4715d0dcf9eabe' \\\r\n  -H 'accept: application/json, text/javascript, */*; q=0.01' \\\r\n  -H 'accept-language: en-US,en;q=0.9' \\\r\n  -H 'content-type: application/x-www-form-urlencoded' \\\r\n  -b '_ga_GNHMG3034P=GS1.2.1715089539.1.0.1715089539.0.0.0; _gcl_au=1.1.792018551.1742194859; _gid=GA1.2.816003758.1742194860; _ga=GA1.2.1736722577.1707465920; _ga_X8G0BRFSDF=GS1.1.1742194859.15.1.1742194998.0.0.0; OCSESSID=1ef36708a1da4c808496a22741; currency=USD; cf_clearance=1LNIdogcu6MrzUrgMAvtB1ib3Ok6D3gFn_cCd2SP90U-1742195099-1.2.1.1-bmVfNinscPe9Az.sMdatqxgm1Q_Bc56hzNXKHPK3fE3DTK9n0gyS5iccIIr.4mexP06OZbemiuk_jyd.ok.d9NM9O1NyoVdKXtQ6PWdKyiaIaHVxDkdISZ5bsHo5NLiNdRVZrjUa.kj3.Z.EO1KA4.YVbSm6bcEHNLeW72IPFsojr8srkSmzuxzgUfHxq.zHWzFaAqcwrlklV9Vcp10P7QDCBit6VkMISNZEypKSMPczbfK0PelvqlM.mOCGJLxdDZHxlKky5T8q0SdLBCGD8zJzwzRtbng.okwsIPUyk3N4vpvLNEOvN0jqIyjy3dyxcGVK405QaeL8Ag08D8C_.N4aubvCzKWq.2pHAWFyt8flc4Z.RqOd.toxfNJ1SYjqucDYxIrdHUGJz9fxTxlaWQNGZuhsg58XZyP4OLPu3aE' \\\r\n  -H 'origin: https://demo.opencart.com' \\\r\n  -H 'priority: u=1, i' \\\r\n  -H 'referer: https://demo.opencart.com/en-gb?route=account/register' \\\r\n  -H 'sec-ch-ua: \"Chromium\";v=\"134\", \"Not:A-Brand\";v=\"24\", \"Google Chrome\";v=\"134\"' \\\r\n  -H 'sec-ch-ua-arch: \"x86\"' \\\r\n  -H 'sec-ch-ua-bitness: \"64\"' \\\r\n  -H 'sec-ch-ua-full-version: \"134.0.6998.89\"' \\\r\n  -H 'sec-ch-ua-full-version-list: \"Chromium\";v=\"134.0.6998.89\", \"Not:A-Brand\";v=\"24.0.0.0\", \"Google Chrome\";v=\"134.0.6998.89\"' \\\r\n  -H 'sec-ch-ua-mobile: ?0' \\\r\n  -H 'sec-ch-ua-model: \"\"' \\\r\n  -H 'sec-ch-ua-platform: \"Windows\"' \\\r\n  -H 'sec-ch-ua-platform-version: \"15.0.0\"' \\\r\n  -H 'sec-fetch-dest: empty' \\\r\n  -H 'sec-fetch-mode: cors' \\\r\n  -H 'sec-fetch-site: same-origin' \\\r\n  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36' \\\r\n  -H 'x-requested-with: XMLHttpRequest' \\\r\n  --data-raw 'firstname=k&lastname=ashajyothi&email=asha75k%40gmail.com&password=Asha%408713&newsletter=0&agree=1'"
+			},
+			"response": []
+		}
+	]
+}
